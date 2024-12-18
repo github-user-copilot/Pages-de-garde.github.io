@@ -1,0 +1,18 @@
+body {
+background-color: rgb(238, 229, 110);
+}
+img {
+    transition:transform 0.25s ease;
+}
+img:hover {
+    -webkit-transform:scale(2.5);
+    transform:scale(2.5);
+}
+div.picwrapper {
+    width:100%;
+    text-align:center;
+}
+div.pic {
+    /* remove float:left here */
+    display:inline-block;
+}
